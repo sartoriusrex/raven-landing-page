@@ -17,6 +17,8 @@
   line-height: normal;
   letter-spacing: -0.17px;
   color: #ffffff;
+  padding: 0;
+  margin: 0;
 }
 
 .list-item {

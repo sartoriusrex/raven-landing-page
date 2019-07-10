@@ -1,12 +1,12 @@
 import React from 'react';
 
-import HeroImage from './HeroImage';
+import HeroSection from './sections/Hero';
 
 const App = () => {
 
     return(
       <>
-        <HeroImage />
+        <HeroSection />
       </>
     )
 }

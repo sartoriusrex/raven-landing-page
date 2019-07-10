@@ -1,8 +1,11 @@
 .background {
-  background: top /cover no-repeat url('../images/mimi-thian-737634-unsplash.jpg');
+  background: top right no-repeat url('../images/mimi-thian-737634-unsplash.jpg');
   display: flex;
   justify-content: center;
   padding-top: 51px;
-  height: 100vh;
-  max-width: 876px;
+  height: 876px;
+  width: 876px;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
