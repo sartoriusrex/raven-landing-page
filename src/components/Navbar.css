@@ -1,0 +1,25 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-group {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 454px;
+  height: 25px;
+  font-family: SFCompactDisplay, Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.17px;
+  color: #ffffff;
+}
+
+.list-item {
+  list-style: none;
+  color: white;
+}
