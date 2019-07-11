@@ -1,0 +1,82 @@
+.contact-list-item {
+  display: flex;
+}
+
+.address-width {
+  width: 260px;
+}
+
+.phone-width {
+  width: 136px;
+}
+
+.social-width {
+  width: 160px;
+}
+
+.margin-address {
+  margin-left: 331px;
+}
+
+.margin-phone {
+  margin-left: 87px;
+}
+
+.margin-social {
+  margin-left: 230px;
+}
+
+.list-marker{
+  width: 14px;
+  height: 14px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.contact-list-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: -5px;
+}
+
+.contact-info-header {
+  font-family: SFProDisplay, Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0px;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 11px;
+  width: 80px;
+  height: 21px;
+}
+
+.social-size {
+  width: 105px;
+}
+
+.contact-info-container {
+  height: 53px;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-info {
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0px;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
