@@ -1,4 +1,4 @@
-.bio-container {
+.bio-container-unselected {
   width: 419px;
   height: 247px;
   box-shadow: 10px 10px 60px 0 rgba(141, 154, 169, 0.5);
@@ -8,11 +8,11 @@
   margin-right: 32px;
 }
 
-.bio-last {
+.bio-last-unselected {
   margin-right: 0;
 }
 
-.bio-image-container {
+.bio-image-container-unselected {
   width: 67px;
   height: 67px;
   background-color: #ffffff;
@@ -26,7 +26,7 @@
   align-items: center;
 }
 
-.bio-image-filter {
+.bio-image-filter-unselected {
   width: 59px;
   height: 59px;
   background-blend-mode: screen;
@@ -36,7 +36,7 @@
   opacity: .5;
 }
 
-.bio-image {
+.bio-image-unselected {
   border-radius: 50%;
   position: absolute;
   top: 4px;
@@ -45,7 +45,7 @@
   height: 59px;
 }
 
-.bio-header {
+.bio-header-unselected {
   width: 331px;
   height: 45px;
   margin-top: 49px;
@@ -55,7 +55,7 @@
   align-items: center;
 }
 
-.bio-name {
+.bio-name-unselected {
   width: 140px;
   height: 25px;
   font-family: SFCompactDisplay, Roboto, sans-serif;
@@ -70,7 +70,7 @@
   padding: 0;
 }
 
-.bio-title {
+.bio-title-unselected {
   width: 209px;
   height: 20px;
   font-family: LucidaGrande;
@@ -86,16 +86,18 @@
   padding: 0;
 }
 
-.bio-star {
+.bio-star-unselected {
   margin-right: 9px;
 }
 
-.bio-text-container {
-  margin-top: 19px;
+.bio-text-container-unselected {
+  margin-top: 20px;
   margin-left: 35px;
+  width: 344px;
+  height: 105px;
 }
 
-.bio-text {
+.bio-text-unselected {
   width: 344px;
   height: 105px;
   opacity: 0.5;

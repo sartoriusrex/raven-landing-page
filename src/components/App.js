@@ -5,6 +5,7 @@ import AboutSection from './sections/About';
 import RangeSection from './sections/Range';
 import ProjectSection from './sections/Projects';
 import OpinionSection from './sections/Opinions';
+import ContactSection from './sections/Contact';
 
 const App = () => {
 
@@ -15,6 +16,7 @@ const App = () => {
         <RangeSection />
         <ProjectSection />
         <OpinionSection />
+        <ContactSection />
       </>
     )
 }
