@@ -1,0 +1,112 @@
+.chainspot-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chainspot-image-container {
+  width: 322px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  height: 340px;
+  margin-bottom: 16px;
+}
+
+.chainspot-background-div-large {
+  background: center /contain no-repeat url('../images/csoval3.svg');
+  z-index: 1;
+  width: 100%;
+  height: 340px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.chainspot-background-div-med {
+  background: center /contain no-repeat url('../images/csoval2.svg');
+  z-index: 2;
+  width: 100%;
+  height: 314px;
+  position: absolute;
+  top: 13px;
+  left: 7px;
+}
+
+.chainspot-img {
+  z-index: 4;
+  border-radius: 50%;
+  margin-top: 24px;
+  margin-left: 14px;
+}
+
+.chainspot-overlay-three {
+  z-index: 5;
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  width: 288px;
+  height: 288px;
+  opacity: .3;
+  border-radius: 50%;
+  background-color: #fb4040;
+}
+
+.chainspot-overlay-two{
+  z-index: 4;
+  width: 288px;
+  height: 288px;
+  border-radius: 50%;
+  background-blend-mode: color;
+  background-image: linear-gradient(229deg, #f093fb, #f5576c);
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  opacity: .2;
+}
+
+.chainspot-overlay-one{
+  z-index: 6;
+  width: 288px;
+  height: 288px;
+  border-radius: 50%;
+  opacity: 0.54;
+  background-color: rgba(38, 38, 38, 0.98);
+  position: absolute;
+  top: 24px;
+  left: 24px;
+}
+
+.chainspot-text-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  height: 287px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.chainspot-text {
+  width: 116px;
+  height: 26px;
+  font-family: SFCompactDisplay, Roboto, sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.1px;
+  text-align: right;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+

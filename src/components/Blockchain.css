@@ -1,0 +1,68 @@
+.blockchain-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 44px;
+}
+
+.pink-rectangle-blockchain {
+  width: 35px;
+  height: 35px;
+  background-color: rgba(234, 73, 114, 0.35);
+  position: absolute;
+  top: 70px;
+  left: 71px;
+}
+
+.blockchain-oval-top{
+  position: absolute;
+  top: 16px;
+  left: 131px;
+}
+
+.blockchain-oval-bottom{
+  position: absolute;
+  top: 106px;
+  left: 55px;
+}
+
+.blockchain-icon {
+  margin-top: 16px;
+  margin-bottom: 19px;
+}
+
+.blockchain-title {
+  width: 112px;
+  height: 24px;
+  font-family: SFCompactDisplay, Roboto, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.71px;
+  color: #3f546c;
+  margin: 0;
+  margin-bottom: 19px;
+  padding: 0;
+}
+
+.blockchain-text-container {
+  width: 205px;
+  height: 57px;
+}
+
+.blockchain-text {
+  font-family: SFCompactDisplay, Roboto, sans-serif;
+  font-size: 15px;
+  font-weight: 100;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #506883;
+  margin: 0;
+  padding: 0;
+}
