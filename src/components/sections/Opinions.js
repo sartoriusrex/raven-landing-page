@@ -3,6 +3,7 @@ import React from 'react';
 import "./Opinions.css";
 import Gray from '../Gray';
 import Rowe from '../Rowe';
+import Francis from '../Francis';
 
 const OpinionSection = () => {
   return(
@@ -12,6 +13,7 @@ const OpinionSection = () => {
         <div className="opinion-item-inner-container">
           <Gray />
           <Rowe />
+          <Francis />
         </div>
       </div>
     </section>

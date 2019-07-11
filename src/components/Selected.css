@@ -1,0 +1,110 @@
+.bio-container-selected {
+  box-shadow: 10px 10px 60px 0 rgba(141, 154, 169, 0.5);
+  background-color: #ffffff;
+  border-radius: 20px;
+  position: relative;
+  margin-right: 32px;
+  width: 488.7px;
+  height: 287.7px;
+}
+
+.bio-last-selected {
+  margin-right: 0;
+}
+
+.bio-image-container-selected {
+  width: 67px;
+  height: 67px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 27px;
+  margin-top: -22px;
+  border: .1px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bio-image-filter-selected {
+  width: 59px;
+  height: 59px;
+  background-blend-mode: screen;
+  background-image: linear-gradient(130deg, #ea4972, #4a51e2);
+  border-radius: 50%;
+  z-index: 1;
+  opacity: .5;
+}
+
+.bio-image-selected {
+  border-radius: 50%;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 59px;
+  height: 59px;
+}
+
+.bio-header-selected {
+  width: 331px;
+  height: 45px;
+  margin-top: 49px;
+  margin-left: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bio-name-selected {
+  width: 140px;
+  height: 25px;
+  font-family: SFCompactDisplay, Roboto, sans-serif;
+  font-size: 21px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.22px;
+  margin: 0;
+  padding: 0;
+  color: #8747ab;
+}
+
+.bio-title-selected {
+  width: 209px;
+  height: 20px;
+  font-family: LucidaGrande;
+  font-size: 16.8px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.17px;
+  text-decoration: underline;
+  margin: 0;
+  padding: 0;
+  color: #506883;
+}
+
+.bio-star-selected {
+  margin-right: 9px;
+}
+
+.bio-text-container-selected {
+  margin-top: 19px;
+  margin-left: 35px;
+}
+
+.bio-text-selected {
+  font-family: SFCompactDisplay, Roboto, sans-serif;
+  font-size: 16.8px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.66;
+  letter-spacing: 0.17px;
+  color: #506883;
+  margin: 0;
+  width: 402px;
+  height: 122px;
+}

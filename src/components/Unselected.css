@@ -8,6 +8,10 @@
   margin-right: 32px;
 }
 
+.bio-last {
+  margin-right: 0;
+}
+
 .bio-image-container {
   width: 67px;
   height: 67px;
@@ -49,10 +53,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.bio-title-container {
-
 }
 
 .bio-name {
