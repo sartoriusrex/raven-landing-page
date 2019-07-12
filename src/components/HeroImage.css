@@ -1,11 +1,16 @@
 .background {
   background: top right no-repeat url('../images/mimi-thian-737634-unsplash.jpg');
   display: flex;
-  justify-content: center;
   padding-top: 51px;
   height: 876px;
   width: 876px;
   position: absolute;
   top: 0;
   right: 0;
+}
+
+.uk-flag-top {
+  position: absolute;
+  top: 52px;
+  right: 133px;
 }
