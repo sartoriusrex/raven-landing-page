@@ -58,4 +58,52 @@
   height: 713px;
   background-color: #d8d8d8;
   margin-top: 112px;
+  position: relative;
+}
+
+.main-marker {
+  background: center no-repeat url('../../images/shape.svg');
+  width: 54px;
+  height: 78px;
+  position: absolute;
+  top: 687px;
+  left: 842px;
+  z-index: 70;
+}
+
+.secondary-marker {
+  background: center no-repeat url('../../images/path-8.png');
+  width: 40px;
+  height: 78px;
+  position: absolute;
+  top: 687px;
+  left: 856px;
+  z-index: 90;
+}
+
+.bottom-purple {
+  background: center no-repeat url('../../images/bottom-contact-purple.svg');
+  width: 100%;
+  height: 155.3px;
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+}
+
+.bottom-pink {
+  background: center no-repeat url('../../images/bottom-contact-pink.svg');
+  width: 100%;
+  height: 159.3px;
+  position: absolute;
+  bottom: -18px;
+  left: 0;
+}
+
+.bottom-white {
+  background: center no-repeat url('../../images/bottom-contact-white.svg');
+  width: 100%;
+  height: 153.1px;
+  position: absolute;
+  bottom: -38px;
+  left: 0;
 }

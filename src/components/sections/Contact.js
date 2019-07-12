@@ -2,6 +2,7 @@ import React from 'react';
 
 import "./Contact.css";
 import ContactItem from '../ContactItem';
+import ContactForm from '../ContactForm';
 
 
 const ContactSection = () => {
@@ -33,7 +34,13 @@ const ContactSection = () => {
           sizeSocial="social-size"
         />
       </ul>
+      <ContactForm />
       <div className="map"></div>
+      <div className="main-marker"></div>
+      <div className="secondary-marker"></div>
+      <div className="bottom-purple"></div>
+      <div className="bottom-pink"></div>
+      <div className="bottom-white"></div>
     </div>
   )
 }
