@@ -7,4 +7,17 @@
 
 .logo-text {
   padding-left: 28px;
+  z-index: 100;
+}
+
+@media screen and ( max-width: 1200px ) {
+  .brand-container {
+    padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .logo-text{
+    display: none;
+  }
 }
