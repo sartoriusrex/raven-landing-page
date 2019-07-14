@@ -1,5 +1,5 @@
 .background {
-  background: top right no-repeat url('../images/mimi-thian-737634-unsplash.jpg');
+  background: top right /contain no-repeat url('../images/mimi-thian-737634-unsplash.jpg');
   display: flex;
   padding-top: 51px;
   height: 876px;
@@ -7,16 +7,27 @@
   position: absolute;
   top: 0;
   right: 0;
+  overflow: hidden;
 }
 
-.uk-flag-top {
-  position: absolute;
-  top: 52px;
-  right: 133px;
+@media screen and (max-width: 1200px){
+  .background {
+    height: 700px;
+    width: 700px;
+  }
 }
 
-.flagdrop-nav {
-  position: absolute;
-  top: 58px;
-  right: 120px;
+@media screen and (max-width: 1000px){
+  .background {
+    height: 550px;
+    width: 550px;
+  }
+}
+
+@media screen and (max-width: 800px){
+  .background {
+    height: 450px;
+    width: 450px;
+    justify-content: flex-end;
+  }
 }

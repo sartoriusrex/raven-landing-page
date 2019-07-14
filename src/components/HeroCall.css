@@ -57,6 +57,16 @@
   }
 }
 
+@media screen and (max-width: 1000px) {
+  .hero-call-container {
+    top: 275px;
+    width: 350px;
+  }
+}
+
 @media screen and (max-width: 800px) {
-  
+  .hero-call-container {
+    top: 200px;
+    width: 300px;
+  }
 }

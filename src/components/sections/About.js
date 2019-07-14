@@ -6,10 +6,12 @@ import MimiThian from '../../images/img.jpg';
 const AboutSection = () => {
   return(
     <section className="about-section-container">
-      <img
-        src={ MimiThian }
-        alt="Mimi and Thian Collaborating"
-      />
+      <div className="about-img-container">
+        <img
+          src={ MimiThian }
+          alt="Mimi and Thian Collaborating"
+        />
+      </div>
       <div className="about-text-container">
         <h2 className="about-title">About us</h2>
         <div className="about-paragraph-container">

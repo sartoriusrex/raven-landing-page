@@ -1,22 +1,22 @@
 .brand-container {
   display: flex;
   align-items: center;
-  padding-left: 120px;
-  padding-top: 20px;
+  margin-left: 120px;
+  margin-top: 20px;
 }
 
 .logo-text {
-  padding-left: 28px;
+  margin-left: 28px;
   z-index: 100;
 }
 
 @media screen and ( max-width: 1200px ) {
   .brand-container {
-    padding-left: 20px;
+    margin-left: 20px;
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .logo-text{
     display: none;
   }

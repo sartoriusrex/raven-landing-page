@@ -4,7 +4,8 @@
   margin-left: 255px;
 }
 
-.list-group {
+.list-group,
+.list-group-menu {
   list-style: none;
   display: flex;
   justify-content: space-between;
@@ -22,7 +23,92 @@
   margin: 0;
 }
 
+.list-group-menu {
+  flex-direction: column;
+  width: 100px;
+  height: 100%;
+}
+
 .list-item {
   list-style: none;
   color: white;
+}
+
+.menu-button {
+  width: 30px;
+  height: 30px;
+  display: none;
+}
+
+.menu-button path {
+  fill: white;
+}
+
+
+.uk-flag-top {
+  position: absolute;
+  top: 52px;
+  right: 133px;
+}
+
+.flagdrop-nav {
+  position: absolute;
+  top: 58px;
+  right: 120px;
+}
+
+@media screen and (max-width: 1200px){
+  .nav {
+    margin-left: 100px;
+  }
+
+  .uk-flag-top{
+    right: 80px;
+  }
+
+  .flagdrop-nav{
+    right: 67px;
+  }
+}
+
+@media screen and (max-width: 1000px){
+  .nav {
+    margin-left: 50px;
+  }
+
+  .list-group {
+    font-size: 12px;
+    width: 350px;
+  }
+
+  .uk-flag-top{
+    right: 80px;
+  }
+
+  .flagdrop-nav{
+    right: 67px;
+  }
+}
+
+@media screen and (max-width: 800px){
+  .nav {
+    margin-right: 50px;
+    flex-direction: column;
+  }
+
+  .menu-button{
+    display: block;
+  }
+
+  .list-group {
+    display: none;
+  }
+
+  .uk-flag-top{
+    position: static;
+  }
+
+  .flagdrop-nav{
+    position: static;
+  }
 }
