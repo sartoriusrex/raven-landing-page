@@ -34,3 +34,20 @@
   justify-content: center;
   align-items: center;
 }
+
+@media screen and (max-width: 1200px){
+  .opinion-item-inner-container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .opinion-item-container{
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1000px){
+  .opinions-section-container {
+    margin-top: 50px;
+  }
+}

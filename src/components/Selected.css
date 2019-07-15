@@ -25,7 +25,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  transition: width 150ms ease-in, height 150ms ease-in, background-color 150ms ease-in;
 }
 
 .bio-image-filter-selected {
@@ -36,6 +36,7 @@
   border-radius: 50%;
   z-index: 1;
   opacity: .5;
+  transition: width 150ms ease-in, height 150ms ease-in, background-color 150ms ease-in, opacity 150ms ease-in;
 }
 
 .bio-image-selected {
@@ -56,7 +57,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  transition: width 150ms ease-in, height 150ms ease-in;
 }
 
 .bio-name-selected {
@@ -72,7 +73,7 @@
   margin: 0;
   padding: 0;
   color: #8747ab;
-  
+  transition: width 150ms ease-in, height 150ms ease-in, font-size 150ms ease-in, color 150ms ease-in;
 }
 
 .bio-title-selected {
@@ -89,7 +90,7 @@
   margin: 0;
   padding: 0;
   color: #506883;
-  
+  transition: width 150ms ease-in, height 150ms ease-in, font-size 150ms ease-in, color 150ms ease-in;
 }
 
 .bio-star-selected {
@@ -101,6 +102,7 @@
   margin-left: 35px;
   width: 402px;
   height: 122px;
+  transition: width 150ms ease-in, height 150ms ease-in;
 }
 
 .bio-text-selected {
@@ -115,4 +117,60 @@
   margin: 0;
   width: 402px;
   height: 122px;
+  transition: width 150ms ease-in, height 150ms ease-in, font-size 150ms ease-in, color 150ms ease-in;
+}
+
+@media screen and (max-width: 1200px){
+  .bio-container-selected {
+    margin: 40px 20%;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .bio-container-selected {
+    width: 90%;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bio-image-container-selected{
+    position: relative;
+    margin: -22px auto 0;
+  }
+
+  .bio-header-selected {
+    margin: 20px auto 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+  }
+
+  .bio-title-container-selected{
+    margin-bottom: 20px;
+  }
+
+  .bio-text-container-selected{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    width: auto;
+    height: auto
+  }
+
+  .bio-text-selected {
+    width: auto;
+    height: auto;
+  }
+
+  .bio-name-selected,
+  .bio-title-selected {
+    width: auto;
+    height: auto;
+  }
 }

@@ -34,7 +34,7 @@ const Rowe = ({ status, updateStatus }) => {
         />
       </div>
       <div className={`bio-header-${ style }`}>
-        <div className={`bio-title-container${ style }`}>
+        <div className={`bio-title-container-${ style }`}>
           <p className={`bio-name-${ style }`}>RobertoRowe</p>
           <p className={`bio-title-${ style }`}>Licened Embalmer</p>
         </div>
