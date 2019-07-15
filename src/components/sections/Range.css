@@ -28,5 +28,16 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  width: 75%;
+}
+
+@media screen and (max-width: 1200px){
+  .range-item-container {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1000px){
+  .range-item-container {
+    width: 100%;
+  }
 }

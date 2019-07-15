@@ -69,6 +69,12 @@
 
 @media screen and (max-width: 1000px){
   .web-container{
-    margin: 10px;
+    margin: 20px 10%;
+  }
+}
+
+@media screen and (max-width: 800px){
+  .web-container{
+    margin: 20px 5%;
   }
 }

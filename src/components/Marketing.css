@@ -68,3 +68,15 @@
     margin: 0 10px;
   }
 }
+
+@media screen and (max-width: 1000px){
+  .marketing-container{
+    margin: 20px 10%;
+  }
+}
+
+@media screen and (max-width: 800px){
+  .marketing-container{
+    margin: 20px 5%;
+  }
+}

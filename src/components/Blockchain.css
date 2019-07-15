@@ -73,3 +73,21 @@
     margin: 0 10px;
   }
 }
+
+@media screen and (max-width: 1000px){
+  .blockchain-container{
+    margin: 20px 10% 20px 5%;
+  }
+}
+
+@media screen and (max-width: 800px){
+  .blockchain-container{
+    margin: 20px 5% 20px 5%;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .blockchain-container{
+    margin: 20px 20%;
+  }
+}
