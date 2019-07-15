@@ -80,3 +80,18 @@
   padding: 0;
 }
 
+@media screen and (max-width: 1200px){
+  .margin-address,
+  .margin-phone,
+  .margin-social {
+    margin: 0 40px;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .margin-address,
+  .margin-phone,
+  .margin-social {
+    margin: 20px 40px;
+  }
+}

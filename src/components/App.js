@@ -17,8 +17,8 @@ const App = () => {
         <RangeSection />
         <ProjectSection />
         <OpinionSection />
-        {/* <ContactSection />
-        <FooterSection /> */}
+        <ContactSection />
+        {/* <FooterSection /> */}
       </>
     )
 }

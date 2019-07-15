@@ -193,3 +193,59 @@
   text-align: right;
   color: #ffffff;
 }
+
+@media screen and (max-width: 800px){
+  .contact-form{
+    left: auto;
+    top: 440px;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .contact-form{
+    left: auto;
+    top: 650px;
+  }
+}
+
+@media screen and (max-width: 400px){
+  .contact-form{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form-element-container{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .form-submit-button{
+    margin-left: 0;
+  }
+
+  .form-input-outerdiv,
+  .form-input-email,
+  .form-input-phone,
+  .form-input-message {
+    width: 100%;
+  }
+
+  .form-input-name{
+    width: calc( 100% - 1px );
+  }
+
+  .uk-flag-form {
+    top: 203px;
+    left: 20px;
+  }
+
+  .contact-dropdown {
+    top: 215px;
+    left: 70px;
+  }
+}

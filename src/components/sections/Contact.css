@@ -108,3 +108,42 @@
   bottom: -34px;
   left: 0;
 }
+
+@media screen and (max-width: 1200px){
+  .contact-items{
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1000px){
+  .main-marker,
+  .secondary-marker {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .contact-section-container{
+    height: auto;
+  }
+
+  .contact-items{
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    align-items: start;
+    padding: 0 60px;
+    margin: 0;
+    margin-top: 20px;
+  }
+
+  .map{
+    margin-top: -20px;
+  }
+}
+
+@media screen and (max-width: 400px){
+  .contact-items{
+    padding: 0 20px;
+  }
+}

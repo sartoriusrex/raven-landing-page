@@ -47,6 +47,7 @@
 @media screen and ( max-width: 800px ) {
   .title {
     top: 150px;
+    width: 90%;
   }
 
   .hero-section {
