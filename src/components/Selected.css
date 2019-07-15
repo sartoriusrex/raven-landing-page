@@ -6,6 +6,7 @@
   margin-right: 32px;
   width: 488.7px;
   height: 287.7px;
+  transition: width 150ms ease-in, height 150ms ease-in, background-color 150ms ease-in;
 }
 
 .bio-last-selected {
@@ -24,6 +25,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .bio-image-filter-selected {
@@ -43,6 +45,7 @@
   left: 4px;
   width: 70px;
   height: 70px;
+  transition: width 100ms ease-in, height 100ms ease-in;
 }
 
 .bio-header-selected {
@@ -53,6 +56,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
 }
 
 .bio-name-selected {
@@ -68,6 +72,7 @@
   margin: 0;
   padding: 0;
   color: #8747ab;
+  
 }
 
 .bio-title-selected {
@@ -84,6 +89,7 @@
   margin: 0;
   padding: 0;
   color: #506883;
+  
 }
 
 .bio-star-selected {

@@ -4,6 +4,7 @@
   flex-direction: column;
   align-items: center;
   margin-left: 44px;
+  max-width: 205px;
 }
 
 .pink-rectangle-blockchain {
@@ -65,4 +66,10 @@
   color: #506883;
   margin: 0;
   padding: 0;
+}
+
+@media screen and (max-width: 1200px){
+  .blockchain-container{
+    margin: 0 10px;
+  }
 }

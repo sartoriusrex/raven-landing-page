@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 201px;
 }
 
 .pink-rectangle{
@@ -58,4 +59,16 @@
   color: #506883;
   margin: 0;
   padding: 0;
+}
+
+@media screen and (max-width: 1200px){
+  .web-container{
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 1000px){
+  .web-container{
+    margin: 10px;
+  }
 }

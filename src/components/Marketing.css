@@ -4,6 +4,7 @@
   flex-direction: column;
   align-items: center;
   margin-left: 55px;
+  max-width: 260px;
 }
 
 .pink-rectangle-marketing {
@@ -60,4 +61,10 @@
   color: #506883;
   margin: 0;
   padding: 0;
+}
+
+@media screen and (max-width: 1200px){
+  .marketing-container{
+    margin: 0 10px;
+  }
 }

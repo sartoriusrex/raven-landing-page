@@ -6,6 +6,7 @@
   border-radius: 20px;
   position: relative;
   margin-right: 32px;
+  transition: width 150ms ease-in, height 150ms ease-in, background-color 150ms ease-in;
 }
 
 .bio-last-unselected {
@@ -43,6 +44,7 @@
   left: 4px;
   width: 59px;
   height: 59px;
+  transition: width 100ms ease-in, height 100ms ease-in;
 }
 
 .bio-header-unselected {

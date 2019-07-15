@@ -15,10 +15,10 @@ const App = () => {
         <HeroSection />
         <AboutSection />
         <RangeSection />
-        <ProjectSection />
+        {/* <ProjectSection />
         <OpinionSection />
         <ContactSection />
-        <FooterSection />
+        <FooterSection /> */}
       </>
     )
 }
