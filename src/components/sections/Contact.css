@@ -120,6 +120,11 @@
   .secondary-marker {
     display: none;
   }
+
+  .contact-title{
+    font-size: 30px;
+    width: auto;
+  }
 }
 
 @media screen and (max-width: 600px){

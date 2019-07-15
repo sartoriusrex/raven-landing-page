@@ -50,4 +50,9 @@
   .opinions-section-container {
     margin-top: 50px;
   }
+
+  .opinion-title{
+    font-size: 30px;
+    width: auto;
+  }
 }

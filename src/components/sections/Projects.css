@@ -33,9 +33,15 @@
   .project-item-container{
     height: auto;
     flex-direction: column;
+    margin-top: 20px;
   }
 
   .project-section-container{
     margin-top: 50px;
+  }
+
+  .project-title{
+    font-size: 30px;
+    width: auto;
   }
 }
