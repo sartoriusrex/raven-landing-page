@@ -40,4 +40,8 @@
   .range-item-container {
     width: 100%;
   }
+
+  .range-section-container{
+    margin-top: 50px;
+  }
 }

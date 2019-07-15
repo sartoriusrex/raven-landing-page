@@ -87,3 +87,10 @@
   margin: 0;
   padding: 0;
 }
+
+@media screen and (max-width: 1000px){
+  .smart-container {
+    margin: 0;
+    margin-bottom: 40px;
+  }
+}

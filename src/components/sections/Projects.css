@@ -28,3 +28,14 @@
   margin-top: 63px;
   padding: 0;
 }
+
+@media screen and (max-width: 1000px){
+  .project-item-container{
+    height: auto;
+    flex-direction: column;
+  }
+
+  .project-section-container{
+    margin-top: 50px;
+  }
+}
