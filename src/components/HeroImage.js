@@ -5,9 +5,12 @@ import Navbar from './Navbar';
 
 const HeroImage = () => {
   return(
-    <div className="background">
+    <>
+    <div className="background"></div>
+    <div className="nav-container">
       <Navbar />
     </div>
+    </>
   )
 }
 

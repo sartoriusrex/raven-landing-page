@@ -125,3 +125,17 @@
     margin: 8px;
   }
 }
+
+@media screen and (max-width: 600px){
+  .nav {
+    margin-right: 15px;
+  }
+
+  .list-item{
+    color: #4a51e2;;
+  }
+
+  .menu-button path {
+    fill: #4a51e2;
+  }
+}
