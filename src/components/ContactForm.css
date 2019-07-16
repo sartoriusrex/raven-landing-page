@@ -80,7 +80,7 @@
 }
 
 .form-input-phone {
-  width: 226px;
+  width: 230px;
   height: 40px;
   border-radius: 7px;
   border: solid 1px #8d9aa9;
@@ -173,6 +173,7 @@
 .form-input-message::placeholder {
   color: #b7b7b7;
   font-family: SFProDisplay, Roboto, sans-serif;
+  text-indent: 12px;
 }
 
 .form-submit-button {
