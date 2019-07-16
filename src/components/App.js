@@ -18,7 +18,7 @@ const App = () => {
         <ProjectSection />
         <OpinionSection />
         <ContactSection />
-        {/* <FooterSection /> */}
+        <FooterSection />
       </>
     )
 }
