@@ -179,6 +179,7 @@
   width: 202px;
   height: 53px;
   border-radius: 7px;
+  border: none;
   background-image: linear-gradient(98deg, #ea4972, #4a51e2);
   color: #fff;
   margin-left: 144px;
