@@ -88,6 +88,12 @@
   padding: 0;
 }
 
+@media screen and (max-width: 1200px){
+  .drone-container {
+    margin-left: 20px;
+  }
+}
+
 @media screen and (max-width: 1000px){
   .drone-container {
     margin: 0;

@@ -121,7 +121,8 @@
   transition: width 150ms ease-in, height 150ms ease-in, font-size 150ms ease-in, color 150ms ease-in;
 }
 
-@media screen and (max-width: 1200px){
+
+@media screen and (max-width: 1400px){
   .bio-container-unselected {
     margin: 40px 20%;
   }

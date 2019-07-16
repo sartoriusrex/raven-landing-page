@@ -88,6 +88,12 @@
   padding: 0;
 }
 
+@media screen and (max-width: 1200px){
+  .smart-container {
+    margin-left: 20px;
+  }
+}
+
 @media screen and (max-width: 1000px){
   .smart-container {
     margin: 0;

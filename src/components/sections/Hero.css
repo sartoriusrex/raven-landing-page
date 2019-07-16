@@ -23,11 +23,13 @@
   z-index: 100;
 }
 
-@media screen and ( max-width: 1200px ) {
+@media screen and (max-width: 1400px){
   .title {
     left: 20px;
   }
+}
 
+@media screen and ( max-width: 1200px ) {
   .hero-section {
     height: 700px;
   }

@@ -35,7 +35,7 @@
   align-items: center;
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1400px){
   .opinion-item-inner-container {
     flex-direction: column;
     height: auto;

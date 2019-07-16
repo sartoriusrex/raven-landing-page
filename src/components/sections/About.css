@@ -52,6 +52,12 @@
   margin-top: 0;
 }
 
+@media screen and (max-width: 1400px){
+  .about-text-container {
+    margin-right: 10px;
+  }
+}
+
 @media screen and (max-width: 1200px){
   .about-text-container {
     margin-left: 20px;
