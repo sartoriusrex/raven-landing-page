@@ -125,6 +125,8 @@
 @media screen and (max-width: 1400px){
   .bio-container-unselected {
     margin: 40px 20%;
+    padding-bottom: 20px;
+    height: auto;
   }
 }
 
