@@ -183,7 +183,8 @@
   border: none;
   background-image: linear-gradient(98deg, #ea4972, #4a51e2);
   color: #fff;
-  margin-left: 144px;
+  margin-left: 137px;
+  padding: 0;
 }
 
 .form-button-text {
