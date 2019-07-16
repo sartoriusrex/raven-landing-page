@@ -92,6 +92,7 @@
 
 .form-input-phone::placeholder {
   color: #b7b7b7;
+  font-family: SFProDisplay, Roboto, sans-serif;
 }
 
 .uk-flag-form {
@@ -141,6 +142,7 @@
 
 .form-input-email::placeholder {
   color: #b7b7b7;
+  font-family: SFProDisplay, Roboto, sans-serif;
 }
 
 .form-label-message {
@@ -170,6 +172,7 @@
 
 .form-input-message::placeholder {
   color: #b7b7b7;
+  font-family: SFProDisplay, Roboto, sans-serif;
 }
 
 .form-submit-button {
