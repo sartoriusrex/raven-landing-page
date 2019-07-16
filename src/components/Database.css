@@ -31,7 +31,7 @@
 }
 
 .database-title {
-  width: 172px;
+  width: 100%;
   height: 24px;
   font-family: SFCompactDisplay, Roboto, sans-serif;
   font-size: 20px;
@@ -44,6 +44,7 @@
   margin: 0;
   margin-bottom: 19px;
   padding: 0;
+  text-align: center;
 }
 
 .database-text-container {
