@@ -38,7 +38,7 @@
 @media screen and (max-width: 1400px){
   .opinion-item-inner-container {
     flex-direction: column;
-    height: auto;
+    height: 1000px;
   }
 
   .opinion-item-container{

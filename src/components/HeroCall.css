@@ -60,14 +60,14 @@
 
 @media screen and (max-width: 1000px) {
   .hero-call-container {
-    top: 275px;
+    top: 250px;
     width: 350px;
   }
 }
 
 @media screen and (max-width: 800px) {
   .hero-call-container {
-    top: 260px;
+    top: 230px;
     width: 250px;
   }
 }
